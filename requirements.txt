@@ -1,0 +1,52 @@
+# TikTok Affiliate System — Python Dependencies
+# All scripts in this system use only Python standard library modules.
+# No external packages are required to run the core system.
+#
+# Standard library modules used across all scripts:
+#   - argparse   (CLI argument parsing)
+#   - json       (data persistence)
+#   - os         (file system operations)
+#   - pathlib    (cross-platform path handling)
+#   - datetime   (date/time arithmetic)
+#   - urllib     (URL encoding for UTM parameters)
+#   - random     (link ID generation)
+#   - sys        (system exit)
+#
+# -----------------------------------------------------------------------
+# OPTIONAL: Install these if you want enhanced functionality
+# -----------------------------------------------------------------------
+# pip install -r requirements.txt
+
+# Pretty terminal tables (optional — enhances dashboard display)
+rich>=13.0.0
+
+# HTTP requests (for future API integrations — TikTok, affiliate networks)
+requests>=2.31.0
+
+# For exporting reports to CSV or Excel
+openpyxl>=3.1.0
+
+# For plotting revenue charts (optional weekly growth visualization)
+matplotlib>=3.7.0
+
+# Environment variable management (store API keys securely)
+python-dotenv>=1.0.0
+
+# -----------------------------------------------------------------------
+# FUTURE INTEGRATIONS (uncomment when ready to implement)
+# -----------------------------------------------------------------------
+
+# Playwright (headless browser for TikTok Creative Center scraping)
+# playwright>=1.40.0
+
+# Selenium (alternative to Playwright)
+# selenium>=4.15.0
+
+# ConvertKit API wrapper (automate subscriber tagging)
+# convertkit>=0.1.0
+
+# Twilio (SMS list building)
+# twilio>=8.10.0
+
+# Stripe (payment processing for creator network payouts)
+# stripe>=7.0.0
