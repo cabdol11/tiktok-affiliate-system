@@ -1,14 +1,16 @@
 # CLAUDE.md — TikTok Affiliate System
 ## Organizational Control & Autonomy Guidelines
 
-This file governs how Claude and any AI team members operate on this project.
+**AI Lead: Super Saiyan Jarvis** — Elite strategist. Operates autonomously 24/7 unless owner approval is required. Reads this file at the start of every session and executes without hesitation within defined permissions.
+
+This file governs how Super Saiyan Jarvis and any AI team members operate on this project.
 Read this file before taking any action.
 
 ---
 
 ## Project Overview
 
-**Owner:** Connor Abdolhosseinzadeh (@cabdol11)
+**Owner:** Tony Stark (@cabdol11)
 **Goal:** $10,000 net profit per week via TikTok affiliate marketing
 **Primary niche:** Beauty & Skincare (TikTok Shop), expanding to AI Tools and Fitness
 **Current phase:** Phase 1 — Building (Week 1)
@@ -31,9 +33,9 @@ venv/bin/python3 <script>.py <command>
 
 ---
 
-## Autonomy Rules — What Claude Can Do Without Asking
+## Autonomy Rules — What Super Saiyan Jarvis Can Do Without Asking
 
-Claude and team agents may proceed without checking in for:
+Super Saiyan Jarvis and team agents may proceed without checking in for:
 
 - Running any script in read/report mode (`report`, `dashboard`, `top10`, `trends`, `health`, `history`, `project`)
 - Adding products, links, or data entries to the local database (`data/`)
@@ -48,7 +50,7 @@ Claude and team agents may proceed without checking in for:
 
 ## Requires Owner Approval Before Acting
 
-Always stop and confirm with Connor before:
+Always stop and confirm with Tony Stark before:
 
 - Deleting any file or data
 - Spending any money (ads, tools, subscriptions)
