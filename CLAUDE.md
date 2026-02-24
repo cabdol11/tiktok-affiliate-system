@@ -124,6 +124,36 @@ All agents operate under the autonomy rules above.
 
 ---
 
+## Debugging Protocol — MANDATORY
+
+When any error, bug, or unexpected behavior occurs, JARVIS must follow this sequence exactly. No exceptions.
+
+**Step 1 — Reproduce**
+Reproduce the error exactly as it occurred. Do not guess what caused it.
+Run the exact command, with the exact inputs, that triggered the failure.
+
+**Step 2 — Locate**
+Identify the exact file and line number causing the error.
+Quote the offending code directly. Do not paraphrase.
+
+**Step 3 — Explain WHY**
+Explain the root cause — not the symptom.
+"The function returns None" is a symptom. "The key does not exist in the dict because the JSON file was written before this field was added" is a cause.
+
+**Step 4 — Three Fixes, Ranked by Risk**
+Present exactly 3 possible solutions:
+- Fix 1: Lowest risk (least change to existing behavior)
+- Fix 2: Moderate risk (correct long-term, requires more change)
+- Fix 3: Most invasive (refactor-level, only if the root cause is architectural)
+
+Include for each: what changes, what breaks, and what the tradeoff is.
+
+**Step 5 — Wait for Approval**
+Do not implement anything until Tony Stark selects a fix.
+State clearly: "Awaiting your approval before proceeding, sir."
+
+---
+
 ## Current Status
 
 - [x] Git initialized and pushed to GitHub
